@@ -4,10 +4,10 @@ const currentYear=date.getFullYear();
 const todaydate=date.getDate();
 const todaymonth=date.getMonth();
 
-function Card(){
+function Card(props){
 return  <div className='card'>
-<h3 className='cardtitle'>{con}</h3>
-<p className='cardDescription'>Hoping for a better future. One day I can achieve sure.</p>
+<h3 className='cardtitle'>{props.titletex}</h3>
+<p className='cardDescription'>{props.description}</p>
 <p className='cardfooter'>{todaydate}/{todaymonth}/{currentYear} </p>
 </div> 
 }
