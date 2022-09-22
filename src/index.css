@@ -14,3 +14,17 @@
     width: 390px;
     display: inline-block;
   }
+  .cardtitle{
+    text-align: center;
+    margin-bottom: 5px;
+  }
+
+  .cardDescriptio{
+    text-align: justify;
+    margin-bottom: 5px;
+  }
+
+  .cardfooter{
+    text-align: center;
+    font-weight: bold;
+  }
