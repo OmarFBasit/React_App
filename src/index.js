@@ -23,8 +23,12 @@ root.render(
   <div>
  
     <h1 className='headingstyle'>{Wel}</h1>
-    <h3>{con}</h3>
-    <p>{todaydate} - {todaymonth} -{currentYear} </p>
+
+    <div className='card'>
+    <h3 className='cardtitle'>{con}</h3>
+    <p className='cardfooter'>{todaydate} - {todaymonth} -{currentYear} </p>
+    </div>
+
     </div>
 
 );
